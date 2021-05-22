@@ -20,7 +20,8 @@ Um cliente possui nome, CPF, renda, data de nascimento, e quantidade de filhos. 
 
 Seu projeto deverá fazer um seed de pelo menos 10 clientes com dados SIGNIFICATIVOS (não é para usar dados sem significado como “Nome 1”, “Nome 2”, etc.).
 
-![warning](https://github.githubassets.com/images/icons/emoji/unicode/26a0.png) `**Atenção:** *lembre-se de que por padrão a JPA transforma nomes de atributos em camel case para snake case, como foi o caso do campo imgUrl do DSCatalog, que no banco de dados tinha o nome img_Url. Assim, o campo birthDate acima será criado no banco de dados como birth_Date, então seu script SQL deverá seguir este padrão.*`
+ **Atenção:**  
+> *lembre-se de que por padrão a JPA transforma nomes de atributos em camel case para snake case, como foi o caso do campo imgUrl do DSCatalog, que no banco de dados tinha o nome img_Url. Assim, o campo birthDate acima será criado no banco de dados como birth_Date, então seu script SQL deverá seguir este padrão.*
 
 
 
